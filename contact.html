@@ -37,7 +37,7 @@
         .r1,
         .r3 {
             display: grid;
-            background-color: #9BC1BC;
+            background-color: #ccc;
             padding: 1em;
             align-items: center;
         }
@@ -49,13 +49,13 @@
 
         .r2 {
             height: 100;
-            background-color: #f1f1f1;
+            background-color: #CCC;
         }
 
-        .three-column {
+        .one-column {
             display: grid;
             grid-template-columns: 2fr 8fr 3fr;
-            background-color: #FFF;
+            background-color: #9BC1BC;
             grid-column-gap: 1em;
         }
         .c1 {
@@ -63,7 +63,7 @@
             }
         .c1,
         .c3 {
-            background-color: #9BC1BC ;
+            background-color: #9BC1BC;
         }
         .txt-center {
             text-align: center;
@@ -79,12 +79,11 @@
             padding: 15px 0px 15px 30px;
             background-color: #9BC1BC;
             font-weight: bold;
-            color: #E6EBE0;
             text-decoration: none;
             transition-duration: 0.7s;
         }
         .left-nav > li > a:hover {
-            background-color: #8d8c8c;
+            background-color: #9BC1BC;
         }
         .c2 {
             display: grid;
@@ -103,12 +102,18 @@
             align-self: center;
             max-height: 130px;
         }
+        .submit-button {
+            padding: 10px 25px;
+            background-color: #E6EBE0;
+            float:right;
+            margin-top: 12px;
+        }
     </style>
 </head>
 
 <body class="main-container-grid">
     <div class="r1 box-shadow">
-        <h2>Company</h2>
+        <h2>Contact</h2>
     </div>
     <div class="r2 three-column">
         <div class="c1 box-shadow">
@@ -124,12 +129,13 @@
 
         <div class="c2">
             <h2 class = "txt-center h2-content">Recent products</h2>
-            <img class="box-shadow" src="sm_logo.jpg">
+            <img class="box-shadow" src="smlogo.jpeg">
+           
 
         </div>
 
         <div class="c3 box-shadow">
-            <h2 class = "txt-center">Recent products</h2>
+            <h2 class = "txt-center"></h2>
         </div>
     </div>
     <div class="r3">"For educational purposes only! No orders shall be fulfilled"</div>
